@@ -1,0 +1,45 @@
+{
+  "last_node_id": 2,
+  "last_link_id": 1,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "VideoLoader",
+      "pos": [100, 100],
+      "size": {"0": 300, "1": 400},
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": {
+        "directory": "C:/Videos",
+        "mode": "single",
+        "video_index": 0,
+        "frames_per_video": 30,
+        "custom_width": 512,
+        "custom_height": 512,
+        "target_fps": 30.0
+      }
+    },
+    {
+      "id": 2,
+      "type": "PreviewImage",
+      "pos": [500, 100],
+      "size": {"0": 300, "1": 400},
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": {
+        "images": ["1", 0]
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": 1,
+      "origin_id": 1,
+      "origin_slot": 0,
+      "target_id": 2,
+      "target_slot": 0
+    }
+  ]
+} 

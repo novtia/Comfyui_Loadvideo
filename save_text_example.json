@@ -1,0 +1,55 @@
+{
+  "last_node_id": 2,
+  "last_link_id": 1,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "SaveText",
+      "pos": [400, 200],
+      "size": {"0": 300, "1": 400},
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": {
+        "text": {
+          "value": "这是一个示例文本内容\n可以包含多行文本\n支持各种格式",
+          "type": "STRING"
+        },
+        "file_type": {
+          "value": "文本",
+          "type": "STRING"
+        },
+        "output_path": {
+          "value": "./output",
+          "type": "STRING"
+        },
+        "file_name": {
+          "value": "example_output",
+          "type": "STRING"
+        },
+        "file_extension": {
+          "value": "txt",
+          "type": "STRING"
+        },
+        "overwrite": {
+          "value": true,
+          "type": "BOOLEAN"
+        }
+      },
+      "properties": {},
+      "widgets_values": [
+        "这是一个示例文本内容\n可以包含多行文本\n支持各种格式",
+        "文本",
+        "./output",
+        "example_output",
+        "txt",
+        true
+      ]
+    }
+  ],
+  "links": [],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+} 
